@@ -23,8 +23,8 @@ function Main() {
             <div className="mb-2">
 
             </div>
-            <Board data={ data } />
             
+            <Board data={ data } />
         </ContainerStyled>
     )
 }
