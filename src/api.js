@@ -13,6 +13,7 @@ function getCountry(country) {
     .then((response) => response.json())
 }
 
+// eslint-disable-next-line
 export default {
     getCountry
 }

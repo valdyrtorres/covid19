@@ -1,9 +1,12 @@
+// eslint-disable-next-line
 import React, { memo } from 'react'
+// eslint-disable-next-line
 import PropTypes from 'prop-types'
 import { Grid, Skeleton } from '../../../components'
 import Card from './Card'
 
 function Board({ data }) {
+    // eslint-disable-next-line
     const { cases, todayDeaths, recovered, deaths, todayCases, casesPerOneMillion, deathsPerOneMillion } = data
 
     const getValue = (value) => value ? value : <Skeleton variant="text" width={182} height={60} />

@@ -1,4 +1,5 @@
 import React, { memo } from 'react'
+// eslint-disable-next-line
 import PropTypes from 'prop-types'
 import { Card as CardUI } from '../../../components'
 import { 
